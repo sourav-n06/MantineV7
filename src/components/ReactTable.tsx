@@ -26,17 +26,17 @@ function ReactTable() {
 
   return (
       <Table className='w-screen'>
-        <Table.Thead className='w-screen bg-fuchsia-400'>
-          <Table.Tr className='w-screen bg-fuchsia-400 flex-auto'>
+        <Table.Thead className='w-screen'>
+          <Table.Tr className='w-screen bg-violet-300 flex-auto'>
             <Table.Th>Country</Table.Th>
             <Table.Th>Year</Table.Th>
             <Table.Th>Crop Name</Table.Th>
-            <Table.Th>Crop Production</Table.Th>
-            <Table.Th>Yield Of Crops</Table.Th>
-            <Table.Th>Area Under Cultivation</Table.Th>
+            <Table.Th>Crop Production (Tonnes)</Table.Th>
+            <Table.Th>Yield Of Crops (KilogramperHectare)</Table.Th>
+            <Table.Th>Area Under Cultivation (Hectares)</Table.Th>
           </Table.Tr>
         </Table.Thead>
-        <Table.Tbody className= "">{rows}</Table.Tbody>
+        <Table.Tbody className= " bg-indigo-0">{rows}</Table.Tbody>
       </Table>
   );
 }
